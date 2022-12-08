@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+ <form action="/search" method="get">
+    <label for="query">Search:</label><br>
+    <input type="text" id="query" name="query"><br><br>
+    <input type="submit" value="Search">
+  </form>
+  <h1>Registration Form</h1>
+  <form action="/register" method="post">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+  <p>Already have an account? <a href="/login">Click here to login.</a></p>
+<a href="about.html"> new </a>
+<div id="chat-window">
+    <h2>Chat with your friends:</h2>
+  <form action="/send-message" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+    <input type="submit" value="Send">
+  </form> 
+  <h2>Follow us on social media:</h2>
+  <ul>
+    <li><a href="https://www.facebook.com/">Facebook</a></li>
+    <li><a href="https://www.twitter.com/">Twitter</a></li>
+    <li><a href="https://www.instagram.com/">Inst</a></li>
+    <li><a href="https://wa.me/1234567890?text=Hello">Send us a WhatsApp message</a></li>
+    <li><a href="https://t.me/example">Send us a Telegram message</a></li>
+    <li><a href="mailto:contact@example.com">Send us an email</a></li>
+	</ul>
+	 <style>
+    body {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO1VoJcn_RLUV4Bluum_7--j-2zTaoYe0UEIqha2fDUQ&s");  background-size: cover;
+    }
+  </style>
+  
+</body>
+</html>
+>
